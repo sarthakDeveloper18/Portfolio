@@ -64,14 +64,12 @@ class Skills extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                        </Col>
-                        <Col md={4}>
-                            <Card className="focus mt-2 mb-2">
+                            <Card className="focus mt-2 mb-2 ">
                                 <Card.Body>
-                                    <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
+                                    <Card.Title className="text-center  card-title">Mobile</Card.Title>
                                     <hr />
                                     <Card.Text className="card-text d-flex justify-content-start flex-column">
-                                        {skills.programmingLanguages.map((skill, index) => (
+                                        {skills.mobile.map((skill, index) => (
                                             <span className="p-2" key={index}>
                                                 <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                                                     <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
@@ -81,6 +79,8 @@ class Skills extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
+                        </Col>
+                        <Col md={4}>
                             <Card className="focus mt-2 mb-2">
                                 <Card.Body>
                                     <Card.Title className="text-center  card-title">Database</Card.Title>

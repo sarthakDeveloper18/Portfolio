@@ -30,8 +30,8 @@ const MyTitleMessage = styled.h1`
 const TitleMessage = () => {
     return (
         <MyTitleMessage>
-            <div className="titleMessage">
-                <div className="heading">
+            <div>
+                <div>
                     <div className="main text-center mb-3">
                         Hi, I am
                         <br />
@@ -42,7 +42,7 @@ const TitleMessage = () => {
                     <div className="sub">
                         <Typewriter
                             options={{
-                                strings: ["Full Stack Developer", "Keen To Learn new tech.", "Learner"],
+                                strings: ["Full Stack Developer", "Keen To Learn new tech."],
                                 autoStart: true,
                                 loop: true,
                                 delay: 50
